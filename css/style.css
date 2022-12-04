@@ -7,6 +7,8 @@
 }
 body{
     color: white;
+    font-family: 'Roboto', sans-serif;
+    
 }
 .container{
     width: 100%;
@@ -46,8 +48,6 @@ body{
     font-weight: 700;
     text-transform: uppercase;
 }
-
-
 .hero-area {
     position: relative;
     top: 0;
@@ -61,7 +61,7 @@ body{
 }
 h1 {
     color: white;
-    font-size: 6rem;
+    font-size: 5rem;
     /* line-height: 0.95rem; */
 }
 .btn{
@@ -76,6 +76,7 @@ h1 {
     border:none;
 }
 .title {
+    width: 40vw;
     padding: 8% 12%;    
 }
 
@@ -87,28 +88,121 @@ h1 {
 }
 .shop1, .shop2{
     font-size: 5rem;
+    text-align: center;
+    line-height: 2;
 }
-.shop2 {
-    color:#ff0f7b
+
+.shop2, .game {
+    color:#ff0f7b;
 }
-p {
+p, .paraFont {
     font-size: 1.7rem;
     line-height: 1.5;
 }
 .game{
-    font-size : 2rem;
+    font-size : 1.9rem;
     text-transform: uppercase;
     font-weight: 700;
 }
 .arrowDown-btn {
+    display: block;
     font-size: 2rem;
     background-color: transparent;
     border:none;
     color: #ff0f7b;
 }
+.shop-content {     
+    text-align: center;
+}
 
 
+/* collections section  */
 
 .row {
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 80px 100px ;
+}
+
+.heroImg1 {
+    width: 30vw;
+    /* height: 80%; */
+}
+.heroImg2 {
+    width: 40vw;
+    /* height: 80%; */
+}
+.heroImg3 {
+    width: 30vw;
+    height: 90%;
+}
+h2 {
+    font-size: 3rem;
+    /* line-height: ; */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color:#ff0f7b
+}
+div .seemore {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 185px;
+    height: 48px;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    line-height: 0.95em;
+    font-size: 1.4rem;
+    margin-top: 110px;
+}
+
+
+/* reviews */
+
+#reviews .row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+.review-header {
+   text-align: center;
+   line-height: 1.5;
+}
+
+
+/* contact */
+.contact-image {
+    position: relative;
+}
+
+.contact-img {
+ position: absolute;
+  width: 100%;
+  height: 65vh;
+  z-index: -1;
+}
+
+.contact-header {
+    width: 30vw;
+    padding: 10% 17%;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+.contact-content{
     display:flex;
 }
+.contact-info .game {
+    text-transform: lowercase;
+    margin: 40px 0 ;
+}
+.social-btns {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 3rem;
+    padding-left: 10px;
+}
+
+
+/* footer */
