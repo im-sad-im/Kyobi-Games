@@ -1,8 +1,23 @@
 @media (max-width:992px) {
-    h1 {
-        font-size: 2rem;
+    .head1 {
+        font-size: 3rem;
     }
-    .row {
+    .row, #reviews .row{
         grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+    }
+   
+}
+@media (max-width: 998px) {
+    .navbar-toggler {
+        display: flex;
+        margin: 0;
+    }
+    .nav-item {
+        display: none;
+    }
+    .navigation{
+        padding: 10px;
     }
 }

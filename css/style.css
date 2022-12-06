@@ -45,6 +45,32 @@ body .secondary-color {
     padding: 0 17%;
     margin:0;
 }
+.fa-regular {
+    font-size: 3rem;
+}
+.toggle-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow:1;
+    align-items: center;
+} */
 .navbar-brand, p{
     font-size: 1.5rem;
 }
