@@ -2,12 +2,32 @@
     .head1 {
         font-size: 3rem;
     }
+    .title {
+        display: flex;
+        flex-direction: column;
+        width: 61vw;
+        height: 50vh;
+        /* text-align: center; */
+        /* align-items: center; */
+        justify-content: center;
+
+    }
+    .hero-area {
+        height: 30%;
+    }
     .row, #reviews .row{
         grid-template-columns: auto;
         justify-content: center;
         text-align: center;
     }
-   
+    .btn {
+        width: 150px;
+        height: 40px;
+        font-size: 1.3rem;
+    }
+    .hero-area {
+        height: 80vh;
+    }
 }
 @media (max-width: 998px) {
     .navbar-toggler {
