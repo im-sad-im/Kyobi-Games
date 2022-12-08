@@ -167,13 +167,15 @@ body .secondary-color {
     grid-template-columns: auto auto;
     gap: 80px 100px ;
 }
-.heroImg1 {
+.heroImg {
     width: 30vw;
 }
-.heroImg2 {
-    width: 40vw;
+
+.heroImg{
+    width: 30vw;
 }
-.heroImg3 {
+.casual-img .heroImg {
+    
     width: 30vw;
     height: 90%;
 }
