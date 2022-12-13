@@ -125,6 +125,11 @@ body .secondary-color {
     border-radius: 2rem;
     border:none;
 }
+.btn:hover {
+    background-color: #fff;
+    color:#ff0f7b;
+    transition: all 0.15s ease-out;
+}
 .title {
     width: 40vw;
     padding: 8% 17%;    
