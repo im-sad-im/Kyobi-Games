@@ -189,6 +189,37 @@
         <footer>
             <span> © Copyright Kyobi games | Powered by SAD </span>
         </footer>
+
+        <!-- scroll to Top button  -->
+        <button class="scroll-btn" id="scrollBtn">
+            <i class="arrow up"></i>
+        </button>
+            
+        <!-- javaScript -->
+        <script>
+            const scrollTopBtn = document.getElementById("scrollBtn");
+
+            scrollTopBtn.addEventListener("click", function(){
+                topScroll();
+            });
+
+            window.onscroll = function(){scrollFunction()};
+            
+            //Display button on scroll
+            function scrollFunction(){
+                if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+                scrollTopBtn.style.display = "block";
+                else 
+                scrollTopBtn.style.display = "none";
+            }
+
+            //Scroll to Top on click
+            function topScroll(){
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+
+        </script>
 </body>
 
 </html>
